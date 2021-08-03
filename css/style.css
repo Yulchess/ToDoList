@@ -1,103 +1,97 @@
-body{
-    background-color:#7bb263;
-    
+body {
+  background-color: #7bb263;
 }
-.main-conteiner{
-    margin: 150px auto;
-    height: 250px;
-    width: 400px;
-    background-color: white;
-    border-radius: 20px;
-    padding: 30px;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
+.main-conteiner {
+  margin: 150px auto;
+  height: 250px;
+  width: 400px;
+  background-color: white;
+  border-radius: 20px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.container{
-    
+.container {
 }
 
-h2,h3{
-    margin: 0;
+h2,
+h3 {
+  margin: 0;
 }
-.btn-add{
-    width: 65px;
-    height: 25px;
-    font-weight: 600;
-    background-color:#5490cb;
-    border-radius: 20px;
-    color: white;
-    border-color: #5490cb;
-    cursor: pointer;
-    border: none;
-    
+.btn-add {
+  width: 65px;
+  height: 25px;
+  font-weight: 600;
+  background-color: #5490cb;
+  border-radius: 20px;
+  color: white;
+  border-color: #5490cb;
+  cursor: pointer;
+  border: none;
 }
-.title{
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.subtitle{
-    font-weight: 100;
-    color: gray;
-    font-style: italic;
-    margin-bottom: 20px;
-
+.title {
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 
-
-.taskname:hover{
-    background-color:#dddddd;
-    
-}
-.container-btns{
-   display: flex;
-   justify-content: space-between;
+.subtitle {
+  font-weight: 100;
+  color: gray;
+  font-style: italic;
+  margin-bottom: 20px;
 }
 
-.btn-clear-completed{
-    height: 25px;
-    width: 140px;
-  
-    color: white;
-    background-color: #5490cb;
-    border-radius: 10px;
-    cursor: pointer;
-    border: none;
-    
+.taskname:hover {
+  background-color: #dddddd;
 }
-.btn-empty-list{
-    height: 25px;
-    width: 110px;
-   
-    color: white;
-    background-color: #84312b;
-    border-radius: 10px;
-    cursor: pointer;
-    border: none;
+.container-btns {
+  display: flex;
+  justify-content: space-between;
 }
-.btn-save-list{
-    height: 25px;
-    width: 100px;
-  
-    color: white;
-    background-color: #7bb263;
-    border-radius: 10px;
-    cursor: pointer;
-    border: none;
+
+.btn-clear-completed {
+  height: 25px;
+  width: 140px;
+  color: white;
+  background-color: #5490cb;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
 }
-.taskname{
-    list-style-type: decimal;
+.btn-empty-list {
+  height: 25px;
+  width: 110px;
+  color: white;
+  background-color: #84312b;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
 }
-.completed{
-    text-decoration: line-through;
+.btn-save-list {
+  height: 25px;
+  width: 100px;
+
+  color: white;
+  background-color: #7bb263;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
 }
-.container-task{
-    max-height: 86px ;
-    overflow: auto;
+.taskname {
+  list-style-type: decimal;
 }
-.add-task{
-    margin: 0;
+.completed {
+  text-decoration: line-through;
+}
+.container-task {
+  max-height: 76px;
+  overflow: auto;
+}
+.add-task {
+  margin: 0;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
 }
